@@ -90,7 +90,6 @@ public class MovingAverageServiceTest {
 		movingAverageService.add(10);
 		movingAverageService.add(15);	
 		
-		System.out.println(movingAverageService.getMovingAverage());
 		assertEquals(8f, movingAverageService.getMovingAverage(), 0.0f);
 		
 		Queue<Integer> mockData = new LinkedList<>();

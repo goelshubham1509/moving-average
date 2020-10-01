@@ -66,6 +66,10 @@ public class MovingAverageService implements MovingAverage {
 		return elements;
 	}
 
+	/**
+	 * Method to set initial size for which we want moving average
+	 * @param windowSize initial size
+	 */
 	public void setWindowSize(int windowSize) {
 		this.windowSize = windowSize;
 	}
